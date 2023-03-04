@@ -19,7 +19,7 @@ public class GoChair : BaseState
             {
                
                 agent.speed = 0;
-                stateMachine.ChangeState(((CustomerAISM)stateMachine).listener);// dinleme yanigelen rakamları kontrol etme statesi ekle
+                stateMachine.ChangeState(((CustomerAISM)stateMachine).listener);
             }
         }
     }

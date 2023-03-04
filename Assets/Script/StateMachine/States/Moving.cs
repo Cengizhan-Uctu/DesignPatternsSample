@@ -3,12 +3,12 @@ using UnityEngine;
 public class Moving : BaseState
 {
     private NavMeshAgent agent;
-   // private Transform target;
+ 
     private Transform thisTrasform;
     public Moving(CustomerAISM stateMachine) : base("Moving", stateMachine)
     {
         agent = stateMachine.navmashAgent;
-        //target = stateMachine.target;// burada oyun açılır açılmaz çalıştığı ve biz pool da vermediğimiz için null döndü
+      
         thisTrasform = stateMachine.transform;
     }
 
@@ -22,7 +22,7 @@ public class Moving : BaseState
             {
                
                 agent.speed = 0;
-                stateMachine.ChangeState(((CustomerAISM)stateMachine).takeCard);//kartı alma yerine statesi ekle 
+                stateMachine.ChangeState(((CustomerAISM)stateMachine).takeCard);
             }
         }
 

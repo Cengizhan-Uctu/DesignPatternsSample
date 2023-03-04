@@ -26,7 +26,7 @@ public class CustomerAISM : StateMachine
         goChair = new GoChair(this);
         listener = new Listener(this);
     }
-    protected override BaseState GetInitalState()// başlamasını istediğimiz stateyi girelim 
+    protected override BaseState GetInitalState()
     {
         return idle;
     }

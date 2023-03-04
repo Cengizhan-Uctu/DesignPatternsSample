@@ -21,7 +21,7 @@ public class BingoManController : MonoBehaviour
     {
         while (baggCards.Count>0)
         {
-            ConcreteSubject.Instance.NotifyDelegate(baggCards[0]);// etrafa çektiğimiz sayıyı bağırdık
+            ConcreteSubject.Instance.NotifyDelegate(baggCards[0]);
             baggCards.Remove(baggCards[0]);
             yield return new WaitForSeconds(2);
         }
