@@ -70,12 +70,12 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Script\CardData.cs" />
     <Compile Include="Assets\Script\Observer\ConcreteSubject.cs" />
+    <Compile Include="Assets\Script\Observer\BingoManController.cs" />
     <Compile Include="Assets\Script\ChairController.cs" />
     <Compile Include="Assets\Script\Customer\CustomerSpawner.cs" />
     <Compile Include="Assets\Script\UnityEvents\GameEventSO.cs" />
     <Compile Include="Assets\Script\StateMachine\StateMachine.cs" />
     <Compile Include="Assets\Script\CardController.cs" />
-    <Compile Include="Assets\Script\Observer\BingoManController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
